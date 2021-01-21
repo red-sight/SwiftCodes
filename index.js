@@ -7,6 +7,7 @@ function extract(swift) {
   const banks = require(`${__dirname}/AllCountries/${details.countryCode}.json`);
   if (!banks) return false;
   const bank = banks.list.find((b) => b.swift_code == swift);
+  bank.country_code = details.countryCode;
   if (!bank) return false;
   return bank;
 }

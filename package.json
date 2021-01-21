@@ -1,6 +1,6 @@
 {
   "name": "swift-to-bank-details",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Fork of Switcodes project for integration as JS module",
   "main": "index.js",
   "scripts": {

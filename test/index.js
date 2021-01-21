@@ -11,7 +11,14 @@ describe("extract", function () {
       const bank = swiftcodes.extract(code);
       bank.should.be
         .an("object")
-        .and.have.keys("bank", "city", "branch", "id", "swift_code");
+        .and.have.keys(
+          "bank",
+          "city",
+          "branch",
+          "id",
+          "swift_code",
+          "country_code"
+        );
       bank.swift_code.should.be.equal(code);
     }
   });
