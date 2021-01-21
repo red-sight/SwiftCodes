@@ -1,0 +1,24 @@
+{
+  "name": "swift-to-bank-details",
+  "version": "1.0.0",
+  "description": "Fork of Switcodes project for integration as JS module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-sight/SwiftCodes.git"
+  },
+  "author": "malahov.dmitry@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/red-sight/SwiftCodes/issues"
+  },
+  "homepage": "https://github.com/red-sight/SwiftCodes#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "ibantools": "^3.2.2",
+    "mocha": "^8.2.1"
+  }
+}
