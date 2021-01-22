@@ -10,7 +10,7 @@ npm i -s swift-to-bank-details
 ```javascript
 const banks = require("../index.js");
 const swift = 'RIVEGB21CTY';
-const bank = swiftcodes.extract(swift);
+const bank = banks.extract(swift);
 console.log(bank)
 
 /* 
@@ -20,7 +20,8 @@ Will return
   bank: '1776 RIVERBANK LTD',
   city: 'LONDON',
   branch: '(THE CITY OF LONDON)',
-  swift_code: 'RIVEGB21CTY'
+  swift_code: 'RIVEGB21CTY',
+  country_code: 'GB'
 }
  */
 ```
